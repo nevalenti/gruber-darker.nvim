@@ -29,13 +29,8 @@ function Color:to_string()
 		return "NONE"
 	end
 
-	-- special edge case for BLACK where
-	-- "#0" is returned, which is invalid to Neovim
-	if self.value == 0 then
-		return "#000000"
-	end
-
-	return string.format("#%x", self.value)
+	-- Ensure 6-digit hex output with leading zeros
+	return string.format("#%06x", self.value)
 end
 
 return Color
