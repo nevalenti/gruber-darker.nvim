@@ -6,26 +6,26 @@ _A modern Neovim port of a deftheme [adaptation][gruber-darker-theme] of an Emac
 > **Note**
 > This is a work in progress, but fairly stable
 
-![image](https://user-images.githubusercontent.com/9439488/229402983-b27a2fc4-d938-4ed0-8f7f-7711f73aa985.png)
+![image](https://i.imgur.com/xRS59di.png)
 
 ## Installation
 
 ### Lazy (recommended)
 
 ```lua
-{ "blazkowolf/gruber-darker.nvim" }
+{ "nevalenti/gruber-darker.nvim" }
 ```
 
 ### Packer
 
 ```lua
-use "blazkowolf/gruber-darker.nvim"
+use "nevalenti/gruber-darker.nvim"
 ```
 
 ### Plug
 
 ```vim
-Plug 'blazkowolf/gruber-darker.nvim'
+Plug 'nevalenti/gruber-darker.nvim'
 ```
 
 Then, somewhere in your `init.lua`, set the colorscheme
@@ -67,7 +67,7 @@ For example, with [Lazy](https://github.com/folke/lazy.nvim.git)...
 
 ```lua
 {
-  "blazkowolf/gruber-darker.nvim",
+  "nevalenti/gruber-darker.nvim",
   opts = {
     bold = false,
     italic = {
